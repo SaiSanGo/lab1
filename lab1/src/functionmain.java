@@ -51,7 +51,7 @@ public class functionmain{
 			}
 				else
 					System.out.println("Error, Wrong input");
-			System.out.println("执行耗时 : "+(System.currentTimeMillis()-a)/1000f+" 秒 ");*/
+			System.out.println("执行耗时 : change B1"+(System.currentTimeMillis()-a)/1000f+" 秒 ");*/
 			String command2=new Scanner(System.in).next();
 		    str=expression(p);
 			if(command2.contains("!d/d"))
