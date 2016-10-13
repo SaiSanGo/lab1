@@ -75,10 +75,10 @@ public class functionmain{
 			
 		}
 		
-	public static String[] expression(String p)
+	public static String[] expression(String q)
 	{
 		Pattern m=Pattern.compile("\\++");
-		String str[] = m.split(p);
+		String str[] = m.split(q);
 		return str;
 	}
 	
