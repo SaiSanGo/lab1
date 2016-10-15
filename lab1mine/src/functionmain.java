@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-// The line was added just now!
 public class functionmain{
 	private static String[] temp;
 	public static void main(String[] args)
@@ -52,7 +51,7 @@ public class functionmain{
 			}
 				else
 					System.out.println("Error, Wrong input");
-			System.out.println("执行耗时 : change B1"+(System.currentTimeMillis()-a)/1000f+" 秒 ");*/
+			System.out.println("执行耗时 : "+(System.currentTimeMillis()-a)/1000f+" 秒 ");*/
 			String command2=new Scanner(System.in).next();
 		    str=expression(p);
 			if(command2.contains("!d/d"))
@@ -76,10 +75,10 @@ public class functionmain{
 			
 		}
 		
-	public static String[] expression(String q)
+	public static String[] expression(String p)
 	{
 		Pattern m=Pattern.compile("\\++");
-		String str[] = m.split(q);
+		String str[] = m.split(p);
 		return str;
 	}
 	
