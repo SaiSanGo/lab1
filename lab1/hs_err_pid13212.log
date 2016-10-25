@@ -157,7 +157,7 @@ Deoptimization events (0 events):
 No events
 
 Internal exceptions (2 events):
-Event: 0.133 Thread 0x0000000002bee800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x00000000eb187cc0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u101\7261\hotspot\s–ÐY??
+Event: 0.133 Thread 0x0000000002bee800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x00000000eb187cc0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u101\7261\hotspot\s–ÐY¤	Á?
 Event: 0.133 Thread 0x0000000002bee800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x00000000eb187fa8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u101\7261\hotspot\src\share\vm\prims\
 
 Events (10 events):
@@ -251,4 +251,4 @@ vm_info: Java HotSpot(TM) 64-Bit Server VM (25.101-b13) for windows-amd64 JRE (1
 
 time: Mon Sep 19 20:42:38 2016
 elapsed time: 1959 seconds (0d 0h 32m 39s)
-change all
+
